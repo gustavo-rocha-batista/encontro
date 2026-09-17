@@ -16,13 +16,22 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 20px solid black;
 }
+
+main {
+    border: 20px solid black;
+}
+
 
 main ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 20px solid black;
 }
 
 main ul li {

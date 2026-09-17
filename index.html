@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encontrinho? 🌹</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,22 +15,17 @@
     <main>
         <ul>
             <li>
-                <a href="">
-                    <button class="btn" id="yes">Sim</button>
-                </a>
+                <button class="btn" id="yes" type="button">Sim</button>
             </li>
             <li>
-                <a href="">
-                    <button class="btn" id="no" onmouseover="changePos()">Não</button>
-                </a>
+                <button class="btn" id="no" onmouseover="changePos()">Não</button>
+
             </li>
             <li>
-                    <input type="datetime-local" name="Calendário" id="calendario">
+                <input type="datetime-local" name="Calendário" id="calendario">
             </li>
             <li>
-                <a href="" target="_blank">
-                    <button class="btn" type="button" >Marcar</button>
-                </a>
+                <button class="btn" id="schedule" type="button" >Marcar</button>
             </li>
         </ul>
     </main>
