@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Encontrinho?</h1>
@@ -18,17 +20,18 @@
                 <button class="btn" id="yes" type="button">Sim</button>
             </li>
             <li>
-                <button class="btn" id="no" onmouseover="changePos()">Não</button>
+                <button class="btn" id="no">Não</button>
 
             </li>
-            <li>
-                <input type="datetime-local" name="Calendário" id="calendario">
-            </li>
-            <li>
-                <button class="btn" id="schedule" type="button" >Marcar</button>
+            <li class="calendly-inline-widget"
+                data-url="https://calendly.com/gugarocha4/encontrinho?hide_event_type_details=1&hide_gdpr_banner=1&background_color=ff0000&text_color=ffffff"
+                style="min-width:320px;height:350px;">
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>
+                </script>
             </li>
         </ul>
     </main>
 
 </body>
+
 </html>
